@@ -1,0 +1,114 @@
+html{
+    scroll-behavior: smooth;
+    font-family: "Roboto", Sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;    
+    color: #5b5141;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+} 
+
+a:link {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.container__column{
+    flex-direction: column;
+}
+
+.container__slot{
+    flex: 1;
+    margin: 5px;
+}
+
+.contact__slot__center{
+    display: flex;
+    justify-content: center;
+}
+
+.title__container{
+    font-size: 40px;
+    text-align: center;
+    color: #916f3a;
+   
+    border-bottom: 2px solid #916f3a;
+    padding: 10px;
+}
+
+.title__white{
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #E1B52F; 
+    border-bottom: 2px solid #E1B52F;
+}
+
+.whatsApp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 5px;
+    bottom: 5px;
+    background-color: green;
+    color: white !important;
+    z-index: 1000;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'ETH';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.whatsApp__icon {
+    width:40px;
+    height: 40px;
+    display: flex;
+}
+.whatsApp:hover{
+    background-color: rgb(3, 82, 3);
+    color: white;
+    text-decoration: none;
+}

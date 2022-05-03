@@ -1,0 +1,52 @@
+@media (max-width:960px){
+    header{
+        height: 45px;
+    }
+    
+    .container,.product__item,.contact__container{
+        flex-direction: column;
+    }
+
+    .container__slot{
+        flex: none;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    h1{
+        text-align: center;
+    }
+    
+    .product__item:nth-child(1) .product__slot:nth-child(1){
+       order: 2;
+    }
+
+    .product__item:nth-child(3) .product__slot:nth-child(1){
+        order: 2;
+     }
+
+     
+
+    .product__item .product__description{
+        text-align: center;
+        padding: 15px;
+    }
+
+    .about__image{
+        height: 300px;
+    }
+
+    .menu__container{
+        display: none;
+    }
+
+    .menuMobile__btn{
+        display: flex;
+    }
+
+   .contact__image{
+        height: 350px;
+    }
+}
